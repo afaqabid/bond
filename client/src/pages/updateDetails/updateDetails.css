@@ -1,0 +1,84 @@
+.update {
+  width: 100vw;
+  height: 100vh;
+  background-color: #264653;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.updateWrapper {
+  align-self: center;
+  width: 400px;
+  height: 75%;
+  display: flex;
+}
+
+.updateLogo {
+  font-size: 50px;
+  font-weight: 800;
+  color: #1775ee;
+  margin-bottom: 10px;
+}
+
+.updateDesc {
+  font-size: 24px;
+}
+
+.updateBox {
+  height: 450px;
+  width: 362px;
+  padding: 25px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.updateInput {
+  height: 50px;
+  border-radius: 10px;
+  border: 1px solid #264653;
+  font-size: 18px;
+  margin: 2px;
+  /* padding-left: 25px; */
+}
+
+.updateInput:focus {
+  outline: none;
+}
+
+.updateInputImg {
+  height: 50px;
+  font-size: 15px;
+  margin: 5px;
+  padding-left: 30px;
+}
+
+.updateButton {
+  height: 80px;
+  width: 75%;
+  align-self: center;
+  border-radius: 10px;
+  border: none;
+  background-color: #264653;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.headerEditDetails {
+  font-size: 28px;
+  font-weight: 1000;
+  padding-bottom: 20px;
+  align-items: center;
+  color: #264653;
+  text-align: center;
+}
+
+.labelsUpdate {
+  font-size: 18px;
+  padding-left: 25px;
+}
